@@ -4,7 +4,7 @@ path=~/.nanorc
 if [[ -f ${path} ]]
 then
 	# Mr Awk trying to make it hard lol
-	echo "" | awk 'BEGIN{print "Yes, Its exist"}'
+	echo "" | awk 'BEGIN{print "File Exist"}'
 	#echo "File Exist"
 else
 	cp /etc/nanorc ~/.nanorc
